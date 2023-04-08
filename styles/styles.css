@@ -1,0 +1,114 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+  display: block;
+}
+
+body {
+  background-color: #f0d9b5;
+  background-size: 30px 30px;
+  font-family: Verdana;
+  font-size: 1rem; 
+}
+
+div {
+  display: block;
+}
+
+.container {
+  max-width: 560px;
+  margin: 70px auto 0 auto;
+}
+
+.header {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: -15px; 
+  -webkit-text-stroke: 1px #b58863;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+
+.description {
+  margin-bottom: 45px;
+  font-style: italic;
+}
+
+form {
+  background-color: #b58863;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  border-radius: 0.75rem;
+  margin: 0 2% 0 2%;
+}
+
+label p {
+  margin-bottom: 5px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 2px solid rgb(180, 167, 167);
+  border-radius: 0.75rem;
+}
+
+.dropdown {
+  border-radius: 0.75rem;
+  padding: 4px;
+  border: 2px solid rgb(180, 167, 167);
+  width: 100%;
+}
+
+#radio-label {
+  display: block;
+  padding-left: 5%;
+  padding-bottom: 1%;
+}
+
+.questions {
+  margin: 30px 0 10px 0;
+}
+
+textarea {
+  width: 100%;
+  border: 2px solid rgb(180, 167, 167);
+  border-radius: 0.75rem;
+  height: 110px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#submit {
+  width: 100%;
+  background-color: green;
+  border: 2px solid rgb(180, 167, 167);
+  border-radius: 0.75rem;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+}
+
+hr {
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  margin-top: 1.5rem;
+}
+
+footer p {
+  margin: 1.5rem;
+  text-align: center;
+  color: rgb(71, 71, 71);
+}
